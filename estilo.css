@@ -1,0 +1,103 @@
+
+ body{
+    background-image: url(imagenes/7_edited.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 385px;
+    height: 385px;
+    border-radius: 85%;
+ }
+
+
+ .avatarlogo {
+  vertical-align: middle;
+  width: 58px;
+  height: 58px;
+  border-radius: 85%;
+}
+
+ .timagen {
+
+    
+        max-width: 500px;
+    }
+
+ .centrardiv
+ 
+    {
+       
+        display: flex;
+        justify-content: center;
+      }
+ 
+
+      .margentexto {
+        width: 85%; /* El contenido ocupa el 95% del ancho de la pantalla */
+        max-width: 1200px; /* El contenido no ocupará más de 1200px */
+        margin: 0 auto; /* Centrar el contenido */
+      }
+ 
+      .justificartexto
+      {
+        text-align: justify;
+      }
+
+
+      .centrartexto
+      {
+        text-align: center;
+      }
+
+      .opacidad {
+        
+        background: rgba(180, 77, 8, 0.705);
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+
+
+      .map-responsive{
+
+        overflow:hidden;
+    
+        padding-bottom:56.25%;
+    
+        position:relative; 
+    
+        height:0;
+    
+    }
+    
+    .map-responsive iframe{
+    
+        left:0;
+    
+        top:0;
+    
+        height:100%;
+    
+        width:100%;
+    
+        position:absolute;
+    
+    }
+
+
+    .curvaesqimag
+    {
+      border-radius: 25px;
+      width: 85%; /* El contenido ocupa el 95% del ancho de la pantalla */
+        max-width: 500px; /* El contenido no ocupará más de 1200px */
+        margin: 0 auto; /* Centrar el contenido */
+    }
+
+
+    
+     
+     
